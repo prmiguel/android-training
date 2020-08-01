@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="42dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Calculator"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="118dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="118dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="281dp"
+        android:layout_y="139dp"
+        android:text=""
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="276dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/subtraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="278dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="346dp"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="230dp"
+        android:layout_y="342dp"
+        android:text="/" />
+</AbsoluteLayout>
