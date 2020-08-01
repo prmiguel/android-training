@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/redBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red Screen"
+        android:background="#e84545" />
+
+    <Button
+        android:id="@+id/yellowBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yellow Screen"
+        android:background="#ffcc00 "/>
+
+    <Button
+        android:id="@+id/greenBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green Screen"
+        android:background="#ade498" />
+</LinearLayout>
